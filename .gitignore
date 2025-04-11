@@ -1,3 +1,44 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
 .env
-*.pyc
+
+# VS Code settings (optional, but good for clean commits)
+.vscode/
+
+# MacOS system files (optional if on macOS)
+.DS_Store
+
+# Logs and other runtime files
+*.log
+
+# Python environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints (if you ever use them)
+.ipynb_checkpoints/
+
+# Compiled C extensions (if you experiment with them)
+*.so
+
+# Coverage / testing
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
